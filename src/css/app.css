@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+display: flex;
+    justify-content: center;
+
+}
+
+.post {
+    width: 800px;
+    margin-top: 30px;
+    border: 1px solid darkcyan;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.post__text {
+    margin-top: 10px;
+}
+
+.post__btns button {
+    padding: 5px 10px;
+}
+
